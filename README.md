@@ -1,5 +1,10 @@
 # FirstSteps
-Programming language for beginners
+Programming language for beginners. This is our version of the Programming Language LOGO, the first programming language learnt by everyone, in primary school. Written using lex and yacc. 
+
+You can move the turtle across the screen and control its motion using simple commands.
+
+To use the UnixVersion, go through the following steps
+
 
 Compile using following commands
 
@@ -44,3 +49,9 @@ PEN to switch back to the Pen mode from eraser
 PUP for Pen Up. You can move the turtle without drawing anything on the screen.
 
 PDOWN for Pen Down
+
+
+
+NOTE : You can also write a list of commands and feed it to the program to generate the desired drawing in one go
+
+$ ./logo < star.logo
