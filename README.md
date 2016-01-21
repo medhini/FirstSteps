@@ -50,6 +50,9 @@ PUP for Pen Up. You can move the turtle without drawing anything on the screen.
 
 PDOWN for Pen Down
 
+HOME to get back to the centre of the screen
+
+CLEAR to clear the screen of all lines
 
 
 NOTE : You can also write a list of commands and feed it to the program to generate the desired drawing in one go
