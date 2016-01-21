@@ -1,0 +1,12 @@
+clear
+pup
+dn 5
+pdown
+lt 10
+tor 6
+tp 10
+dor 6
+rt 10
+dol 6
+dn 10
+tol 6
