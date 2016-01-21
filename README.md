@@ -3,14 +3,14 @@ Programming language for beginners. This is our version of the Programming Langu
 
 You can move the turtle across the screen and control its motion using simple commands.
 
-To use the UnixVersion, go through the following steps
+To use the Terminal Version, go through the following steps
 
 
 Compile using following commands
 
-$ lex UnixVersion.l
+$ lex unixVersion.l
 
-$ yacc -d UnixVersion.y
+$ yacc -d unixVersion.y
 
 $ cc lex.yy.c y.tab.c -o logo
 
