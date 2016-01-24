@@ -1,5 +1,5 @@
 # FirstSteps
-FirstSteps is a language designed to teach basics of programming to beginners. This is our version of the Programming Language LOGO, the first programming language learnt by everyone, in primary school. FirstSteps uses simple commands to draw objects. You can move the turtle across the screen and control its motion using simple commands.
+FirstSteps is a language designed to teach basics of programming to beginners. This is our version of the LOGO, the first programming language learnt by most primary school students. FirstSteps uses simple commands to draw objects. You can move the turtle across the screen and control its motion using simple commands.
 
 FirstSteps comes in two interfaces : 
 
