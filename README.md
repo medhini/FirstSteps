@@ -1,21 +1,23 @@
 # FirstSteps
 FirstSteps is a language designed to teach basics of programming to beginners. This is our version of LOGO, the first programming language learnt by most primary school students. FirstSteps uses simple commands to control the motion of a turtle across a screen and draw objects. It is an efficient tool to introduce the concept of programming and can strengthen analytical skills and creativity of young minds.
 
-FirstSteps comes in two interfaces : 
+<b> FirstSteps comes in two interfaces : </b>
 
 1. A terminal interface (Command Line Interface) : Solely built using lex and yacc. In this, the shapes are represented on the terminal using basics symbols.
 2. Graphical User Interface : Designed using OpenGL, lex and yacc. Shapes are represented in OpenGL frames using lines, circles and other shapes. Other features were added to enhance the visual appeal of the software and thus provide better user experience. 
 
-
+#Installation
 To use the Terminal Version, go through the following steps
 
 Compile using following commands
 
+```
 $ lex unixVersion.l
 
 $ yacc -d unixVersion.y
 
 $ cc lex.yy.c y.tab.c -o logo
+```
 
 
 Maximize the terminal for full screen
@@ -26,7 +28,7 @@ Horizontal Motion
 
 TP LT DN RT for Top, Left, Down, Right
 
-examples
+Examples
 
 TP 6 : Move Top 6 steps
 
@@ -64,5 +66,5 @@ $ ./logo < star.logo
 
 Contributors :
 
-Medhini G N
-Suryansh Kumar
+1. Medhini G N
+2. Suryansh Kumar
